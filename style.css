@@ -1,11 +1,72 @@
+/* ESERCIZIO 1 */
+
 .jumbotron .col-md-6 h1 {
     color: lightblue;
 }
+
+/* ESERCIZIO 2 */
 
 nav * {
     background-color:  lightblue;
 }
 
+/* ESERCIZIO 3 */
+
 .jumbotron .col-md-6 p a {
     color: red;
+}
+
+/* ESERCIZIO 4 */
+
+.col-md-8.blog-main .blog-post:first-of-type {
+    background-color: lightgreen
+}
+
+/* ESERCIZIO 5 */
+
+.col-md-8.blog-main .blog-post:first-of-type hr {
+    border: solid red;
+}
+
+/* ESERCIZIO 6 */
+
+nav :nth-of-type(even) {
+    color: lightsalmon;
+}
+
+/* ESERCIZIO 7 */
+
+.p-4 .list-unstyled.mb-0 li {
+    background-color: lightskyblue;
+}
+
+/* ESERCIZIO 8 */
+
+.col-md-8.blog-main .blog-post:nth-child(3) .blog-post-meta a:first-of-type {
+    background-color: lightcoral;
+}
+
+/* ESERCIZIO 9 */
+
+.col-md-8.blog-main .blog-post:last-of-type ul li:nth-child(2) {
+    border-bottom: 1px solid lime;
+}
+
+/* ESERCIZIO 10 */
+
+footer + a {
+    color: red;
+}
+
+/* ESERCIZIO 11 */
+
+.blog-pagination a:nth-child(2) {
+    color: lime;
+    border: solid lime;
+}
+
+/* ESERCIZIO 12 */
+
+footer a:nth-child(2) {
+    background-color: lightpink;
 }
